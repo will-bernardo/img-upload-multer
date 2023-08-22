@@ -1,0 +1,15 @@
+.upload-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 0.5rem;
+  align-items: center;
+  margin: auto;
+}
+
+.preview {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+}
+

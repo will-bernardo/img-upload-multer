@@ -1,0 +1,25 @@
+{
+  "name": "img-upload-multer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/will-bernardo/img-upload-multer.git",
+  "author": "William Bernardo da Silva <bernardowill175@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only ./src/server.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "prisma": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/multer": "^1.4.7",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  }
+}
