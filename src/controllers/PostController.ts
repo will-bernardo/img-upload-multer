@@ -27,7 +27,8 @@ export class PostController {
       }
     })
 
-
-    return res.json(post)
+    console.log(post)
+    return res.json(post.Image[0].path)
+    
   }
 }
